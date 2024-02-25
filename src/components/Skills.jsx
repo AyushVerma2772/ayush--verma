@@ -44,7 +44,7 @@ const Skills = () => {
     const skills = [
         { id: 1, name: 'html', image: htmlLogo, percentage: '90%', barColor: 'coral' },
         { id: 2, name: 'css', image: cssLogo, percentage: '80%', barColor: '#504cf8' },
-        { id: 3, name: 'js', image: jsLogo, percentage: '75%', barColor: '#fdee43' },
+        { id: 3, name: 'js', image: jsLogo, percentage: '90%', barColor: '#fdee43' },
         { id: 4, name: 'react.js', image: reactLogo, percentage: '70%', barColor: '#61DBFB' },
         { id: 5, name: 'python', image: pythonLogo, percentage: '80%', barColor: '#2044c8' },
         { id: 6, name: 'firebase', image: firebaseLogo, percentage: '60%', barColor: '#fcc632' },
