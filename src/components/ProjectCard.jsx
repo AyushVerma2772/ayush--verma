@@ -49,7 +49,6 @@ const IconBox = styled.div`
     gap: 1.5rem;
     justify-content: flex-start;
     a {
-        
         background-color: ${headingColor};
         height: 3rem;
         width: 3rem;
@@ -124,7 +123,8 @@ const ProjectCard = (props) => {
 
                     <InnerContainer className='inner-container' >
                         <IconBox className='d-flex' >
-                            <a href={props.gitRepo} target="_blank" className='d-flex link' rel="noreferrer" ><VscGithub className='git-icon' /></a>
+                            <a href={props.gitHubRepo} target="_blank" className='d-flex link' rel="noreferrer" ><VscGithub className='git-icon' /></a>
+
                             <a href={props.link} rel="noreferrer" target="_blank" className='d-flex link' > <FiLink className='icon' /> </a>
                         </IconBox>
 

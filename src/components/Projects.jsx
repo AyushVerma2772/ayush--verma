@@ -5,7 +5,7 @@ import { Heading2, mainBgColor } from '../styles/CommonComp';
 import { mobile1 } from '../styles/Responsive';
 import infinityBlogs from '../images/infinity-blogs.png';
 import labPartner from '../images/lab-partner.png';
-import baatein from '../images/baatein.png';
+import swapCoins from '../images/swap-coins.png';
 import fireVdos from "../images/fireVdos.png"
 
 
@@ -39,16 +39,16 @@ const Container = styled.div`
 const Projects = () => {
 
     const projects = [
-        { id: 1, name: 'Fire Vdos', image: fireVdos, gitHubRepo: 'https://github.com/AyushVerma2772/FireVdos', link: 'https://fire-vdos.web.app/', details: 'React | Firebase | Context API | Rapid API' },
-        { id: 2, name: 'Infinity Blogs', image: infinityBlogs, gitHubRepo: 'https://github.com/AyushVerma2772/InfinityBlogs', link: 'https://infinity-blogs.firebaseapp.com/', details: 'React | Firebase | Context API' },
-        { id: 3, name: 'Baatein', image: baatein, gitHubRepo: 'https://github.com/AyushVerma2772/Baatein', link: 'https://baatein-chats.web.app/', details: 'React | Firebase | Context API' },
+        { id: 1, name: 'Swap Coins', image: swapCoins, gitHubRepo: 'https://github.com/AyushVerma2772/Swap-coins-frontend', link: 'https://swap-coins.vercel.app/', details: 'MERN | Redux | Tailwind' },
+        { id: 2, name: 'Fire Vdos', image: fireVdos, gitHubRepo: 'https://github.com/AyushVerma2772/FireVdos', link: 'https://fire-vdos.web.app/', details: 'React | Firebase | Context API | Rapid API' },
+        { id: 3, name: 'Infinity Blogs', image: infinityBlogs, gitHubRepo: 'https://github.com/AyushVerma2772/InfinityBlogs', link: 'https://infinity-blogs.firebaseapp.com/', details: 'React | Firebase | Context API' },
         { id: 4, name: 'Lab Partner', image: labPartner, gitHubRepo: '/', link: 'https://lab-partner.web.app/', details: 'React | Firebase' },
     ]
 
     return (
         <>
             <Wrapper id='projects' className='tag' >
-                <Heading2><span>My Projects</span></Heading2>
+                <Heading2><span>My Projects 💻</span></Heading2>
 
                 <Container>
                     {

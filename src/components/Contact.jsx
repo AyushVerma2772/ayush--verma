@@ -168,7 +168,7 @@ const Contact = () => {
     return (
         <>
             <Wrapper id='contact' className='tag'>
-                <Heading2><span>Get in touch</span></Heading2>
+                <Heading2><span>Get in touch ✉️</span></Heading2>
 
                 <Container className='d-flex' >
                     <ImageBox className='d-flex' data-aos="fade-right" >

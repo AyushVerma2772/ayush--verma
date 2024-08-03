@@ -111,7 +111,7 @@ const About = () => {
 
                 <Wave ref={bottomWave} xmlns="http://www.w3.org/2000/Wave" viewBox="0 0 1440 320"><path fill="#172132" fillOpacity="1" d="M0,96L0,128L130.9,128L130.9,96L261.8,96L261.8,160L392.7,160L392.7,256L523.6,256L523.6,224L654.5,224L654.5,64L785.5,64L785.5,224L916.4,224L916.4,64L1047.3,64L1047.3,288L1178.2,288L1178.2,192L1309.1,192L1309.1,288L1440,288L1440,0L1309.1,0L1309.1,0L1178.2,0L1178.2,0L1047.3,0L1047.3,0L916.4,0L916.4,0L785.5,0L785.5,0L654.5,0L654.5,0L523.6,0L523.6,0L392.7,0L392.7,0L261.8,0L261.8,0L130.9,0L130.9,0L0,0L0,0Z"></path></Wave>
 
-                <Heading2><span>About Me</span></Heading2>
+                <Heading2><span>About Me 👩🏻‍💻</span></Heading2>
 
                 <AboutWrapper className='d-flex' >
                     <LeftBox className='d-flex' >
@@ -133,7 +133,7 @@ const About = () => {
                         <Name>My name is <span>Ayush Verma</span></Name>
 
                         <Para>
-                            I am a computer science student with a passion for Artificial Intelligence and Machine Learning. In addition to my academic pursuits, I am a skilled front-end developer who is constantly seeking to learn about new technologies and stay ahead of the curve. I have experience working with various technologies such as Tailwind CSS, React.js, React Redux, Firebase and more, and have a wealth of experience creating projects with these technologies.
+                            I am a computer science student with a passion for Artificial Intelligence and Machine Learning. In addition to my academic pursuits, I am a skilled fullstack web developer who is constantly seeking to learn about new technologies and stay ahead of the curve. I have experience working with various technologies such as Tailwind CSS, React.js, React Redux, Node, Express, MongoDB, Firebase and more, and have a wealth of experience creating projects with these technologies.
                             Additionally, I work as a Subject Matter Expert for Chegg India, where I have helped hundreds of students and developers by providing solutions and answering their queries.
 
                         </Para>

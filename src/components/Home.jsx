@@ -95,7 +95,7 @@ const Home = () => {
                     <Name>I'm <strong>Ayush Verma</strong></Name>
 
                     <br />
-                    <Bio>A Fronted developer & <br /> Subject Matter Expert</Bio>
+                    <Bio>A Fullstack Web Developer & <br /> Subject Matter Expert</Bio>
                     <ResumeBtn as={'a'} href="https://drive.google.com/file/d/1oTjd_J8bahHRyJzg4LundUKwP_CVz-6U/view?usp=drive_link" target="_blank" className='link' >Resume</ResumeBtn>
                 </Left>
 
